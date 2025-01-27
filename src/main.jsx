@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
     <StrictMode>
       <AuthProvider>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="" element={<App />} />
           <Route path={`/plans`} element={<PlanScreen />} />
           <Route
             path="/plans/payment/success"
